@@ -12,6 +12,6 @@
         <id>go-project-layout</id>
         <link href="https://v2.go-kratos.dev/blog/go-project-layout"/>
         <updated>2021-03-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[随着Go语言这些年的发展，已经在互联网开发行行业中占有一席之地，例如docker、kubernetes、consul、etcd、grafana等等这些非常优秀的开源项目，我们相信未来Go语言肯定也会越来越好！]]></summary>
+        <summary type="html"><![CDATA[随着Go语言这些年的发展，已经在互联网行业中占有一席之地，例如docker、kubernetes、consul、etcd、grafana等等这些非常优秀的开源项目，我们相信未来Go语言肯定也会越来越好！]]></summary>
     </entry>
 </feed>
