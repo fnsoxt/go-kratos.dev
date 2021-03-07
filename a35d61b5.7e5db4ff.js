@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{93:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"best-practice","name":"best practice","count":1,"permalink":"/blog/tags/best-practice"}')}}]);
