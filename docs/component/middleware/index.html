@@ -7,18 +7,18 @@
 <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Kratos Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Kratos Blog Atom Feed"><title data-react-helmet="true">Middleware | Kratos</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="Middleware | Kratos"><meta data-react-helmet="true" name="description" content="Kratos内置了一系列的middleware（中间件）用于处理logging, metrics等通用场景。您也可以通过实现Middleware接口，开发自定义middleware，进行通用的业务处理，比如用户登录鉴权等。"><meta data-react-helmet="true" property="og:description" content="Kratos内置了一系列的middleware（中间件）用于处理logging, metrics等通用场景。您也可以通过实现Middleware接口，开发自定义middleware，进行通用的业务处理，比如用户登录鉴权等。"><meta data-react-helmet="true" property="og:url" content="https://v2.go-kratos.dev/docs/component/middleware"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://v2.go-kratos.dev/docs/component/middleware"><link rel="stylesheet" href="/styles.de9821f7.css">
 <link rel="preload" href="/styles.44a82650.js" as="script">
-<link rel="preload" href="/runtime~main.1a669d7c.js" as="script">
+<link rel="preload" href="/runtime~main.e8f994ee.js" as="script">
 <link rel="preload" href="/main.1ac6b836.js" as="script">
 <link rel="preload" href="/1.d3dbdd81.js" as="script">
 <link rel="preload" href="/2.c10fde69.js" as="script">
-<link rel="preload" href="/01a85c17.a8c06bb7.js" as="script">
-<link rel="preload" href="/1a4e3797.d2cc3aba.js" as="script">
-<link rel="preload" href="/1be78505.cbcfb9ee.js" as="script">
-<link rel="preload" href="/6875c492.7c1e729a.js" as="script">
-<link rel="preload" href="/a6aa9e1f.92dc32e9.js" as="script">
-<link rel="preload" href="/c4f5d8e4.39cef23a.js" as="script">
-<link rel="preload" href="/ccc49370.dae137fe.js" as="script">
-<link rel="preload" href="/45.886052f6.js" as="script">
+<link rel="preload" href="/01a85c17.c039efb4.js" as="script">
+<link rel="preload" href="/1a4e3797.58a15c63.js" as="script">
+<link rel="preload" href="/1be78505.8907d20c.js" as="script">
+<link rel="preload" href="/6875c492.54196783.js" as="script">
+<link rel="preload" href="/a6aa9e1f.1c4c3e37.js" as="script">
+<link rel="preload" href="/c4f5d8e4.18303c48.js" as="script">
+<link rel="preload" href="/ccc49370.33984293.js" as="script">
+<link rel="preload" href="/45.c067ee6a.js" as="script">
 <link rel="preload" href="/44.a5626bb3.js" as="script">
 <link rel="preload" href="/935f2afb.ff76b884.js" as="script">
 <link rel="preload" href="/17896441.3cfc9043.js" as="script">
@@ -34,18 +34,18 @@
 </span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="自定义中间件"></a>自定义中间件<a class="hash-link" href="#自定义中间件" title="Direct link to heading">#</a></h2><p>需要实现<code>Middleware</code>接口。
 [TBD]</p></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/go-kratos/go-kratos.dev/edit/main/docs/component/middleware.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" role="img" viewBox="0 0 40 40" class="iconEdit_2LL7"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/component/registry"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Registry</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/component/transport"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Transport »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_2xL- thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#内置中间件" class="table-of-contents__link">内置中间件</a><ul><li><a href="#logging" class="table-of-contents__link">logging</a></li><li><a href="#metrics" class="table-of-contents__link">metrics</a></li><li><a href="#recovery" class="table-of-contents__link">recovery</a></li><li><a href="#status" class="table-of-contents__link">status</a></li><li><a href="#tracing" class="table-of-contents__link">tracing</a></li><li><a href="#validate" class="table-of-contents__link">validate</a></li></ul></li><li><a href="#使用中间件" class="table-of-contents__link">使用中间件</a></li><li><a href="#自定义中间件" class="table-of-contents__link">自定义中间件</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/">Guides</a></li><li class="footer__item"><a href="http://v1.go-kratos.dev/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Kratos v1</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://discord.gg/BWzJsUJ" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/go-kratos/kratos" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2021 go-kratos.dev</div></div></div></footer></div>
 <script src="/styles.44a82650.js"></script>
-<script src="/runtime~main.1a669d7c.js"></script>
+<script src="/runtime~main.e8f994ee.js"></script>
 <script src="/main.1ac6b836.js"></script>
 <script src="/1.d3dbdd81.js"></script>
 <script src="/2.c10fde69.js"></script>
-<script src="/01a85c17.a8c06bb7.js"></script>
-<script src="/1a4e3797.d2cc3aba.js"></script>
-<script src="/1be78505.cbcfb9ee.js"></script>
-<script src="/6875c492.7c1e729a.js"></script>
-<script src="/a6aa9e1f.92dc32e9.js"></script>
-<script src="/c4f5d8e4.39cef23a.js"></script>
-<script src="/ccc49370.dae137fe.js"></script>
-<script src="/45.886052f6.js"></script>
+<script src="/01a85c17.c039efb4.js"></script>
+<script src="/1a4e3797.58a15c63.js"></script>
+<script src="/1be78505.8907d20c.js"></script>
+<script src="/6875c492.54196783.js"></script>
+<script src="/a6aa9e1f.1c4c3e37.js"></script>
+<script src="/c4f5d8e4.18303c48.js"></script>
+<script src="/ccc49370.33984293.js"></script>
+<script src="/45.c067ee6a.js"></script>
 <script src="/44.a5626bb3.js"></script>
 <script src="/935f2afb.ff76b884.js"></script>
 <script src="/17896441.3cfc9043.js"></script>
