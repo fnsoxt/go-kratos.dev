@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{82:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Go\u5de5\u7a0b\u5316 - Project Layout \u6700\u4f73\u5b9e\u8df5","permalink":"/blog/go-project-layout"}]}')}}]);
