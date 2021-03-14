@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>Kratos Blog</title>
-        <link>https://v2.go-kratos.dev/blog</link>
+        <link>https://go-kratos.dev/blog</link>
         <description>Kratos Blog</description>
         <lastBuildDate>Mon, 08 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Go工程化 - Project Layout 最佳实践]]></title>
-            <link>https://v2.go-kratos.dev/en/blog/go-project-layout</link>
+            <link>https://go-kratos.dev/en/blog/go-project-layout</link>
             <guid>go-project-layout</guid>
             <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Kratos Go 项目工程化，Kit 基础库，在项目不同角度中的设计理念，Go 是一个面向包名设计的语言，可以通过各个包名进行组织 Go 的项目布局，而大家遵循规范设计准则，可以很好地改善团队成员之间的沟通]]></description>
