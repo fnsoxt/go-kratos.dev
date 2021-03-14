@@ -12,7 +12,7 @@
             <link>https://v2.go-kratos.dev/blog/go-project-layout</link>
             <guid>go-project-layout</guid>
             <pubDate>Mon, 08 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[介绍]]></description>
+            <description><![CDATA[Kratos Go 项目工程化，Kit 基础库，在项目不同角度中的设计理念，Go 是一个面向包名设计的语言，可以通过各个包名进行组织 Go 的项目布局，而大家遵循规范设计准则，可以很好地改善团队成员之间的沟通]]></description>
         </item>
     </channel>
 </rss>
