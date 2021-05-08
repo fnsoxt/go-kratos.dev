@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{70:function(n){n.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"golang","name":"golang","count":1,"permalink":"/en/blog/tags/golang"}')}}]);
