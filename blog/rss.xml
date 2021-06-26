@@ -8,18 +8,18 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Kratos 学习笔记 - 基于 OpenTelemetry 的链路追踪]]></title>
-            <link>https://go-kratos.dev/blog/go-kratos-opentelemetry-practice</link>
-            <guid>go-kratos-opentelemetry-practice</guid>
-            <pubDate>Thu, 03 Jun 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[分布式跟踪（也称为分布式请求跟踪）是一种用于分析和监控应用程序的方法，尤其是使用微服务架构构建的应用程序。分布式跟踪有助于精确定位故障发生的位置以及导致性能差的原因。]]></description>
-        </item>
-        <item>
             <title><![CDATA[Kratos 学习笔记 - 通过 layout 简单分析应用是如何跑起来的]]></title>
             <link>https://go-kratos.dev/blog/go-layout-operation-process</link>
             <guid>go-layout-operation-process</guid>
             <pubDate>Thu, 03 Jun 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[通过 layout 简单分析应用是如何跑起来的]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kratos 学习笔记 - 基于 OpenTelemetry 的链路追踪]]></title>
+            <link>https://go-kratos.dev/blog/go-kratos-opentelemetry-practice</link>
+            <guid>go-kratos-opentelemetry-practice</guid>
+            <pubDate>Thu, 03 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[分布式跟踪（也称为分布式请求跟踪）是一种用于分析和监控应用程序的方法，尤其是使用微服务架构构建的应用程序。分布式跟踪有助于精确定位故障发生的位置以及导致性能差的原因。]]></description>
         </item>
         <item>
             <title><![CDATA[Go工程化 - Project Layout 最佳实践]]></title>
