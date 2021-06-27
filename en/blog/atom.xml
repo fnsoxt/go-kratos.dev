@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://go-kratos.dev/blog</id>
+    <id>https://go-kratos.dev/en/blog</id>
     <title>Kratos Blog</title>
     <updated>2021-06-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://go-kratos.dev/blog"/>
+    <link rel="alternate" href="https://go-kratos.dev/en/blog"/>
     <subtitle>Kratos Blog</subtitle>
-    <icon>https://go-kratos.dev/img/favicon.ico</icon>
+    <icon>https://go-kratos.dev/en/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Kratos 学习笔记 - 基于 OpenTelemetry 的链路追踪]]></title>
         <id>go-kratos-opentelemetry-practice</id>

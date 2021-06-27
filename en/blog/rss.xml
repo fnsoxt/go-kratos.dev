@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Kratos Blog</title>
-        <link>https://go-kratos.dev/blog</link>
+        <link>https://go-kratos.dev/en/blog</link>
         <description>Kratos Blog</description>
         <lastBuildDate>Thu, 03 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
