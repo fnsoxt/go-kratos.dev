@@ -4,9 +4,16 @@
         <title>Kratos Blog</title>
         <link>https://go-kratos.dev/en/blog</link>
         <description>Kratos Blog</description>
-        <lastBuildDate>Thu, 03 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Go工程化 - 依赖注入]]></title>
+            <link>https://go-kratos.dev/en/blog/go-project-wire</link>
+            <guid>go-project-wire</guid>
+            <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[wire乍看起来比较违反直觉，导致很多同学不理解为什么要用或不清楚如何用（也包括曾经的我），本文来帮助大家理解wire的使用。]]></description>
+        </item>
         <item>
             <title><![CDATA[Kratos 学习笔记 - 基于 OpenTelemetry 的链路追踪]]></title>
             <link>https://go-kratos.dev/en/blog/go-kratos-opentelemetry-practice</link>
