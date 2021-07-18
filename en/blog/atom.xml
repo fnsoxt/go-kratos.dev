@@ -15,18 +15,18 @@
         <summary type="html"><![CDATA[wire乍看起来比较违反直觉，导致很多同学不理解为什么要用或不清楚如何用（也包括曾经的我），本文来帮助大家理解wire的使用。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kratos 学习笔记 - 通过 layout 简单分析应用是如何跑起来的]]></title>
-        <id>go-layout-operation-process</id>
-        <link href="https://go-kratos.dev/en/blog/go-layout-operation-process"/>
-        <updated>2021-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[通过 layout 简单分析应用是如何跑起来的]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Kratos 学习笔记 - 基于 OpenTelemetry 的链路追踪]]></title>
         <id>go-kratos-opentelemetry-practice</id>
         <link href="https://go-kratos.dev/en/blog/go-kratos-opentelemetry-practice"/>
         <updated>2021-06-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[分布式跟踪（也称为分布式请求跟踪）是一种用于分析和监控应用程序的方法，尤其是使用微服务架构构建的应用程序。分布式跟踪有助于精确定位故障发生的位置以及导致性能差的原因。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kratos 学习笔记 - 通过 layout 简单分析应用是如何跑起来的]]></title>
+        <id>go-layout-operation-process</id>
+        <link href="https://go-kratos.dev/en/blog/go-layout-operation-process"/>
+        <updated>2021-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[通过 layout 简单分析应用是如何跑起来的]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Go工程化 - Project Layout 最佳实践]]></title>
